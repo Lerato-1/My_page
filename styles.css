@@ -1,0 +1,49 @@
+/* Add these styles to your existing CSS file */
+
+/* Profile Picture */
+#profilePicture {
+    width: 400px;
+    height: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Text and Font Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px; /* Changed from 2px for better spacing */
+    padding: 20px; /* Changed from 2px for better spacing */
+    color: rgb(51, 51, 51); /* Default text color */
+}
+
+h1, h2, h3, p, button {
+    color: rgb(51, 51, 51); /* Default text color for headings, paragraphs, and buttons */
+}
+
+/* Header and Main Content */
+header, main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000; /* Default button background color */
+    color: #fff; /* Default button text color */
+}
+
+/* Hover and Active States for Buttons */
+button:hover {
+    background-color: #0098b3; /* Button background color on hover */
+}
+
+button:active {
+    background-color: #660000; /* Button background color when clicked */
+}
